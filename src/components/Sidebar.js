@@ -17,7 +17,7 @@ function Sidebar() {
   return (
     <div className="sidebar">
       <div className="sidebar__top">
-        <img src={BackgroundImg} alt="background-image" />
+        <img src={BackgroundImg} alt="background" />
         <Avatar src={user.photoUrl} className="sidebar__avatar">
           {user.email[0]}
         </Avatar>
